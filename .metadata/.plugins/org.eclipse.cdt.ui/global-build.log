@@ -1,0 +1,197 @@
+Building in: /home/vick/eclipse-workspace/DisplayImage/build/default
+Configuring in: /home/vick/eclipse-workspace/DisplayImage/build/default
+cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON /home/vick/eclipse-workspace/DisplayImage
+CMake Error: CMake was unable to find a build program corresponding to "Ninja".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.-- Configuring incomplete, errors occurred!
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
+
+See also "/home/vick/eclipse-workspace/DisplayImage/build/default/CMakeFiles/CMakeOutput.log".
+cmake --build . -- -v
+No such file or directory
+CMake Error: Generator: execution of make failed. Make command was:  -v && 
+Build complete (0 errors, 0 warnings): /home/vick/eclipse-workspace/DisplayImage/build/default
+Building in: /home/vick/eclipse-workspace/DisplayImage/build/default
+Configuring in: /home/vick/eclipse-workspace/DisplayImage/build/default
+cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON /home/vick/eclipse-workspace/DisplayImage
+CMake Error: CMake was unable to find a build program corresponding to "Ninja".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
+See also "/home/vick/eclipse-workspace/DisplayImage/build/default/CMakeFiles/CMakeOutput.log".
+cmake --build . -- -v
+No such file or directory
+CMake Error: Generator: execution of make failed. Make command was:  -v && 
+Build complete (0 errors, 0 warnings): /home/vick/eclipse-workspace/DisplayImage/build/default
+
+**** Build of configuration Debug for project DisplayImage2 ****
+
+Nothing to build for project DisplayImage2
+20:20:37 **** Build of configuration Debug for project DisplayImage3 ****
+make all 
+Building file: ../src/DisplayImage3.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage3.d" -MT"src/DisplayImage3.o" -o "src/DisplayImage3.o" "../src/DisplayImage3.cpp"
+Finished building: ../src/DisplayImage3.cpp
+ 
+Building target: DisplayImage3
+Invoking: Cross G++ Linker
+g++  -o "DisplayImage3"  ./src/DisplayImage3.o   
+Finished building target: DisplayImage3
+ 
+
+**** Build of configuration Debug for project DisplayImage2 ****
+
+Nothing to build for project DisplayImage2
+20:21:37 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:24:41 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:24:46 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:24:56 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:24:59 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:25:09 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:25:19 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:49:31 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.o" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage3
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "DisplayImage3"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_videoio -lopencv_flann -lopencv_imgcodecs -lopencv_flann
+Finished building target: DisplayImage3
+ 
+20:49:44 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:10 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:24 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:30 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.o" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage3
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "DisplayImage3"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_videoio -lopencv_flann -lopencv_imgcodecs -lopencv_flann
+Finished building target: DisplayImage3
+ 
+20:50:47 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.o" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage3
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "DisplayImage3"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_videoio -lopencv_flann -lopencv_imgcodecs -lopencv_flann
+Finished building target: DisplayImage3
+ 
+21:12:04 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+22:41:33 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.o" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage3
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "DisplayImage3"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_videoio -lopencv_flann -lopencv_imgcodecs -lopencv_flann
+Finished building target: DisplayImage3
+ 
+22:41:40 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:59 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.o" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage3
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "DisplayImage3"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_videoio -lopencv_flann -lopencv_imgcodecs -lopencv_flann
+Finished building target: DisplayImage3
+ 
+22:59:18 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.o" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage3
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "DisplayImage3"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_videoio -lopencv_flann -lopencv_imgcodecs -lopencv_flann
+Finished building target: DisplayImage3
+ 
+22:59:29 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.o" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage3
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "DisplayImage3"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_videoio -lopencv_flann -lopencv_imgcodecs -lopencv_flann
+Finished building target: DisplayImage3
+ 
+22:59:44 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.o" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage3
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "DisplayImage3"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_videoio -lopencv_flann -lopencv_imgcodecs -lopencv_flann
+Finished building target: DisplayImage3
+ 
+22:59:59 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.o" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage3
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "DisplayImage3"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_videoio -lopencv_flann -lopencv_imgcodecs -lopencv_flann
+Finished building target: DisplayImage3
+ 
+00:02:28 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+00:02:36 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.
+00:02:44 **** Incremental Build of configuration Debug for project DisplayImage3 ****
+make all 
+make: Nothing to be done for 'all'.

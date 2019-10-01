@@ -1,0 +1,4 @@
+config/DisplayImage/cdt.launchMode=run
+config/DisplayImage/cdt.toolChain.id=gcc-x86_64-/usr/bin/gcc
+config/DisplayImage/cdt.toolChain.type=org.eclipse.cdt.build.gcc
+eclipse.preferences.version=1
