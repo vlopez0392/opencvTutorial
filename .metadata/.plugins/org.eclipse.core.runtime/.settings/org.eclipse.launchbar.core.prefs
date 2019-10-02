@@ -1,9 +1,12 @@
 LaunchTargetManager/configs/DisplayImage=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/DisplayImage3=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/displayImageResize=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/readAndDisplayImages\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/writeImages\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:DisplayImage3
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:readAndDisplayImages Debug,org.eclipse.launchbar.core.descriptorType.default\:DisplayImage3,org.eclipse.launchbar.core.descriptorType.default\:writeImages Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.debug.core.coreBuildDescriptorType\:DisplayImage/activeLaunchMode=run
 org.eclipse.cdt.debug.core.coreBuildDescriptorType\:DisplayImage/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

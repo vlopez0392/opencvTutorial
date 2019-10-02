@@ -14,7 +14,8 @@
 using namespace cv;
 using namespace std;
 
-int main(int argc, char** argv){
+int main(int argc, char** argv)
+{
 	String imageName("/home/vick/eclipse-workspace/readAndDisplayImages/images/cat-02.jpg.png");
 
 	if(argc >1){
@@ -29,7 +30,7 @@ int main(int argc, char** argv){
 		return -1;
 	}
 
-	namedWindow( "Display Image", WINDOW_AUTOSIZE );
+	namedWindow( "Display Image", WINDOW_AUTOSIZE);
 	imshow( "Display Image", image );
 	waitKey(0);
 	return 0;
